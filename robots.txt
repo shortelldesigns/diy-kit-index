@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shortelldesigns.github.io/diy-kit-index/sitemap.xml
