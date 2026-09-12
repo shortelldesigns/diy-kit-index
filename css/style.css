@@ -285,6 +285,27 @@ a.card:hover { border-color: var(--navy); }
 .rec-no { background: var(--rec-no-bg); color: var(--note-edge); }
 .rec-warn { background: #f0dede; color: #6b2a2a; }
 
+/* 24-hour buy basket */
+.basket-block {
+  background: #eef4ef;
+  border: 1px solid #b7c9bb;
+  border-left: 4px solid var(--forest);
+  border-radius: 0.5rem;
+  padding: 1.1rem 1.15rem 1.25rem;
+  margin: 1.5rem 0;
+}
+.basket-block .kit-lead { margin-bottom: 0.85rem; }
+.basket-block .kits { margin-top: 0.5rem; }
+.bridge-tax {
+  background: var(--paper-2);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  margin: 1.25rem 0;
+}
+.bridge-tax p:last-child { margin-bottom: 0; }
+
+
 .compare {
   width: 100%;
   border-collapse: collapse;
