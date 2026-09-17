@@ -370,3 +370,38 @@ code {
 }
 
 .prose img { max-width: 100%; height: auto; }
+
+/* Above-the-fold primary kit offer (mobile-first) */
+.primary-pick {
+  background: #eef4ef;
+  border: 1px solid #b7c9bb;
+  border-left: 4px solid var(--forest);
+  border-radius: 0.5rem;
+  padding: 0.8rem 0.95rem 0.9rem;
+  margin: 0.75rem 0 1.15rem;
+}
+.primary-pick > .kicker {
+  margin: 0 0 0.2rem;
+  color: var(--forest);
+}
+.primary-pick > p {
+  margin: 0 0 0.45rem;
+  font-size: 0.98rem;
+}
+.primary-pick .pick-links {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0;
+  display: grid;
+  gap: 0.35rem;
+}
+.primary-pick .pick-links li { margin: 0; }
+.primary-pick .kit-link {
+  margin-top: 0;
+  font-size: 0.98rem;
+}
+.primary-pick .pick-note {
+  margin: 0.55rem 0 0;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
