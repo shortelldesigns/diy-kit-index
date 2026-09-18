@@ -103,21 +103,22 @@ a:focus-visible, button:focus-visible {
 }
 .brand-sub { font-size: 0.78rem; color: #d7c9a4; }
 
-nav.primary {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.15rem;
-  width: 100%;
-  background: var(--navy-2);
-  margin: 0 -1rem -0.85rem;
-  padding: 0.35rem 1rem;
-  width: calc(100% + 2rem);
-}
+nav.primary,
 .header-inner nav,
 nav[aria-label="Primary"] {
   display: flex;
   flex-wrap: wrap;
   gap: 0.15rem;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+nav.primary {
+  background: var(--navy-2);
+  margin-bottom: -0.85rem;
+  padding: 0.35rem 1rem;
 }
 nav a {
   text-decoration: none;
@@ -308,6 +309,10 @@ a.card:hover { border-color: var(--navy); }
 
 .compare {
   width: 100%;
+  max-width: 100%;
+  display: block;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   border-collapse: collapse;
   font-size: 0.95rem;
   margin: 1rem 0 1.5rem;
