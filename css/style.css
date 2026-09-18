@@ -405,3 +405,32 @@ code {
   font-size: 0.88rem;
   color: var(--muted);
 }
+
+/* Forest full-width primary-pick CTAs (C01 fold / Designer notes) */
+.primary-pick .kit-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 2.75rem;
+  padding: 0.55rem 0.85rem;
+  box-sizing: border-box;
+  background: var(--forest);
+  color: #f6f3ea !important;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: var(--radius);
+  text-align: center;
+  line-height: 1.25;
+}
+.primary-pick .kit-link:hover,
+.primary-pick .kit-link:focus {
+  background: var(--navy);
+  color: #f6f3ea !important;
+}
+.primary-pick .kit-link .paid { color: #d7e5db; font-weight: 500; }
+.primary-pick .pick-micro {
+  margin: 0.35rem 0 0.5rem;
+  font-size: 0.88rem;
+  color: var(--muted);
+}
