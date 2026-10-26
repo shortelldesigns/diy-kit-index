@@ -454,3 +454,10 @@ nav a {
 /* Designer pack 2026-10-23: 44px taps for footer nav + Sun Radon kit-link */
 .site-footer .foot-nav a { display: inline-flex; align-items: center; min-height: 2.75rem; }
 .kit-link { min-height: 2.75rem; display: inline-flex; align-items: center; flex-wrap: wrap; column-gap: .35em; }
+
+/* Designer pack 2026-10-26: CO alarms fold jump to the six picks */
+.fold-cta { margin: 0.9rem 0 1.2rem; }
+.fold-cta .jump { display: inline-flex; align-items: center; justify-content: center; min-height: 2.75rem; padding: 0.55rem 1rem; background: var(--forest); color: #f6f3ea; font-weight: 700; text-decoration: none; border-radius: var(--radius); line-height: 1.25; }
+.fold-cta .jump:hover, .fold-cta .jump:focus { background: var(--navy); color: #f6f3ea; }
+@media (max-width: 39.99rem) { .fold-cta .jump { display: flex; width: 100%; } }
+#picks { scroll-margin-top: 1rem; }
