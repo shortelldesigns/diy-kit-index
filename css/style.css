@@ -284,6 +284,8 @@ a.card:hover { border-color: var(--navy); }
 }
 .rec-yes { background: var(--rec-yes-bg); color: var(--forest); }
 .rec-no { background: var(--rec-no-bg); color: var(--note-edge); }
+/* Designer pack 2026-11-01: "Not EPA-recognized" / "Not a clearance" pills were 3.93:1 (#8a6d32 on #f3e6c8); darker same hue = 5.68:1 (AA) */
+.rec-no { color: #6e5524; }
 .rec-warn { background: #f0dede; color: #6b2a2a; }
 
 /* 24-hour buy basket */
