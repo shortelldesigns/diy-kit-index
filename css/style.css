@@ -463,3 +463,5 @@ nav a {
 .fold-cta .jump:hover, .fold-cta .jump:focus { background: var(--navy); color: #f6f3ea; }
 @media (max-width: 39.99rem) { .fold-cta .jump { display: flex; width: 100%; } }
 #picks { scroll-margin-top: 1rem; }
+/* 44px tap target on topic-title links (Designer 2026-11-10) */
+.grid.topics .card h3 a { display: block; padding: 0.6rem 0; min-height: 2.75rem; box-sizing: border-box; }
